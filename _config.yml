@@ -1,0 +1,180 @@
+# Site settings
+title: Campuslauf 2016
+email: marie.timcke@journocode.com
+url: http://www.tu-campuslauf.de
+description: "Hier erfahrt ihr die brandaktuellen News rund um den Campuslauf 2016. Etc. pp. latein"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Footer settings
+footer: Your Website
+
+
+
+
+# Team names, titles and social links
+people:
+- name: Marie-Louise Timcke
+  pic: 1
+  position: Hat ne lange Leitung
+  social:
+    - title: twitter
+      url: http://www.twitter.com/datentaeterin
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Sakander Zirai
+  pic: 2
+  position: Webentwickler (Themes geklaut)
+  social:
+    - title: twitter
+      url: http://www.twitter.com/suioni
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+
+
+
+
+
+people2:
+- name2: Unwichtig 1
+  pic: 1
+  position: Hat ne lange Leitung
+  social:
+    - title: twitter
+      url: http://www.twitter.com/datentaeterin
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Unwichtig 2
+  pic: 2
+  position: Hat ne lange Leitung
+  social:
+    - title: twitter
+      url: http://www.twitter.com/datentaeterin
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Unwichtig 3
+  pic: 3
+  position: Hat ne lange Leitung
+  social:
+    - title: twitter
+      url: http://www.twitter.com/datentaeterin
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Unwichtig 4
+  pic: 4
+  position: Hat ne lange Leitung
+  social:
+    - title: twitter
+      url: http://www.twitter.com/datentaeterin
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+
+- name: Unwichtig 5
+  pic: 5
+  position: Hat ne lange Leitung
+  social:
+    - title: twitter
+      url: http://www.twitter.com/datentaeterin
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Unwichtig 6
+  pic: 6
+  position: Hat ne lange Leitung
+  social:
+    - title: twitter
+      url: http://www.twitter.com/datentaeterin
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Unwichtig 7
+  pic: 7
+  position: Hat ne lange Leitung
+  social:
+    - title: twitter
+      url: http://www.twitter.com/datentaeterin
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Unwichtig 8
+  pic: 8
+  position: Hat ne lange Leitung
+  social:
+    - title: twitter
+      url: http://www.twitter.com/datentaeterin
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
+
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty

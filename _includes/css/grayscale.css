@@ -9,7 +9,8 @@ body {
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
-    background-color: {{ site.color.primary-dark }};
+    background-color: #dddddd;
+  #  background-color: {{ site.color.primary-dark }};
 }
 
 html {
@@ -54,7 +55,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #11505d;
+    color: #11505d; #linkfarbe
 }
 
 .light {
@@ -123,7 +124,7 @@ a:focus {
 
     .top-nav-collapse {
         padding: 0;
-        background-color: {{ site.color.primary-dark }};
+        background-color: #353535;
     }
 
     .navbar-custom.top-nav-collapse {
@@ -214,6 +215,18 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
+// Initialise FlexSlider for Carousels
+$(window).load(function() {
+    $('.flexslider').flexslider({
+    animation: "fade",
+    controlNav: false,
+    directionNav: true,
+    slideshowSpeed: 5000,
+    animationSpeed: 600,
+    touch: true
+    });
+});
+
 @-webkit-keyframes pulse {
     0 {
         -webkit-transform: scale(1);
@@ -252,12 +265,60 @@ a:focus {
     padding-top: 100px;
 }
 
+.about-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #000;
+  #  background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
+    background-color: #d9cfb0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .download-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: {{ site.color.primary-dark }};
+  #  background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
+    background-color: #fab1b1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.contact-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+  #  background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
+    background-color: #8bc2a5;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.portfolio-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+  #  background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
+    background-color: #d6665a;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.modal-contend {
+    width: 100%;
+    padding: 50px 0;
+    color: #8bc2a5;
+  #  background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
+    background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -426,7 +487,7 @@ ul.social-buttons li a {
     line-height: 40px;
     outline: 0;
     color: #fff;
-    background-color: #222;
+    background-color: #8bc2a5;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;

@@ -1,0 +1,17 @@
+    <!-- carousel Section -->
+<section id="carousel" class="content-section text-center">
+  <div class="carousel-section">
+    <h2 class="section-heading">Foto Gallerie</h2>
+     {% if site.carousel %}
+      <div class="flexslider">
+        <ul class="slides">
+          {% for slides in site.carousel %}
+          <li>
+            <img src="{{ slides.image }}">
+          </li>
+          {% endfor %}
+        </ul>
+    </div>
+      {% endif %}
+  </div>
+</section>

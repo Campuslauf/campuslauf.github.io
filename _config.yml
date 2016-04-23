@@ -1,8 +1,20 @@
 # Site settings
-title: Campuslauf 2016
+title: "#campuslauf16"
 email: marie.timcke@journocode.com
 url: http://www.tu-campuslauf.de
-description: "Hier erfahrt ihr die brandaktuellen News rund um den Campuslauf 2016. Etc. pp. latein"
+description: "Am 11. Mai fällt der Startschuss zum 32. Campuslauf der TU Dortmund.
+Wieder werden sich Studierende und Externe in verschiedenen Disziplinen wie
+dem Mathetower-Run oder dem Campuswalk messen.
+In einem Countdown stimmt euch das Ressort <strong>Campus und Leben</strong> der
+Pflichtlektüre Online
+darauf ein und berichtet live vom Campussportevent des Jahres!"
+
+# carousel
+carousel:
+  - image: /img/carousel/slide1.jpg
+  - image: /img/carousel/slide2.jpg
+  - image: /img/carousel/slide3.jpg
+  - image: /img/carousel/slide4.jpg
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -10,34 +22,32 @@ color:
   links: '#219ab3'
 
 # Footer settings
-footer: Your Website
-
-
+footer: "#campuslauf16"
 
 
 # Team names, titles and social links
 people:
 - name: Marie-Louise Timcke
   pic: 1
-  position: Hat ne lange Leitung
+  position: Projektleitung & Webentwicklung
   social:
     - title: twitter
       url: http://www.twitter.com/datentaeterin
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+    - title: github
+      url: https://github.com/marielouiese
+    - title: globe
+      url: http://datentaeter.de/
 
 - name: Sakander Zirai
   pic: 2
-  position: Webentwickler (Themes geklaut)
+  position: Webentwicklung
   social:
     - title: twitter
       url: http://www.twitter.com/suioni
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+    - title: github
+      url: https://github.com/suioni
+  #  - title: globe
+  #    url: #
 
 
 
@@ -45,94 +55,94 @@ people:
 
 
 people2:
-- name2: Unwichtig 1
-  pic: 1
-  position: Hat ne lange Leitung
-  social:
-    - title: twitter
-      url: http://www.twitter.com/datentaeterin
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Unwichtig 2
-  pic: 2
-  position: Hat ne lange Leitung
-  social:
-    - title: twitter
-      url: http://www.twitter.com/datentaeterin
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Unwichtig 3
-  pic: 3
-  position: Hat ne lange Leitung
-  social:
-    - title: twitter
-      url: http://www.twitter.com/datentaeterin
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Unwichtig 4
-  pic: 4
-  position: Hat ne lange Leitung
-  social:
-    - title: twitter
-      url: http://www.twitter.com/datentaeterin
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-
-- name: Unwichtig 5
-  pic: 5
-  position: Hat ne lange Leitung
-  social:
-    - title: twitter
-      url: http://www.twitter.com/datentaeterin
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Unwichtig 6
-  pic: 6
-  position: Hat ne lange Leitung
-  social:
-    - title: twitter
-      url: http://www.twitter.com/datentaeterin
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Unwichtig 7
+- name: Johannes Mohren
   pic: 7
-  position: Hat ne lange Leitung
+  position: Ressortleitung
   social:
     - title: twitter
-      url: http://www.twitter.com/datentaeterin
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+      url: https://twitter.com/Johannes_Mohren
+  #  - title: facebook
+  #    url: #
+  #  - title: stack-overflow
+  #    url: #
 
-- name: Unwichtig 8
+- name: Julia Bernewasser
   pic: 8
-  position: Hat ne lange Leitung
+  position: Ressortleitung
   social:
     - title: twitter
       url: http://www.twitter.com/datentaeterin
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+#    - title: facebook
+#      url: #
+#    - title: stack-overflow
+#      url: #
+
+- name: Wenke
+  pic: 3
+  position: Redaktion
+  social:
+    - title: twitter
+      url: http://www.twitter.com/Wenke_we
+#    - title: facebook
+#      url: #
+#    - title: stack-overflow
+#      url: #
+
+- name: Carola
+  pic: 4
+  position: Redaktion
+  social:
+    - title: twitter
+      url: http://www.twitter.com/datentaeterin
+#    - title: facebook
+#      url: #
+#    - title: stack-overflow
+#      url: #
+
+
+- name: Hanna
+  pic: 5
+  position: Redaktion
+  social:
+    - title: twitter
+      url: http://www.twitter.com/datentaeterin
+#    - title: facebook
+#      url: #
+#    - title: stack-overflow
+#      url: #
+
+- name: Mara
+  pic: 6
+  position: Redaktion
+  social:
+    - title: twitter
+      url: http://www.twitter.com/datentaeterin
+#    - title: facebook
+#      url: #
+#    - title: stack-overflow
+#      url: #
+
+- name: Megan
+  pic: 1
+  position: Redaktion
+  social:
+    - title: twitter
+      url: http://www.twitter.com/datentaeterin
+#    - title: facebook
+#      url: #
+#    - title: stack-overflow
+#      url: #
+
+- name: Mara
+  pic: 2
+  position: Redaktion
+  social:
+    - title: twitter
+      url: http://www.twitter.com/datentaeterin
+#    - title: facebook
+#      url: #
+#    - title: stack-overflow
+#      url: #
 
 
 
@@ -157,21 +167,19 @@ people2:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
+  - title: globe
+    url: http://pflichtlektuere.com
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: http://twitter.com/pflichtlektuere
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+    url: https://www.facebook.com/Pflichtlektuere-148575178511113/?fref=ts
+#  - title: stack-overflow
+#    url: http://stackoverflow.com/questions/tagged/jekyll
+#  - title: bitbucket
+#    url: http://bitbucket.org/jekyll
+#  - title: github
+#    url: http://github.com/jekyll
 
-# Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
 
 
 

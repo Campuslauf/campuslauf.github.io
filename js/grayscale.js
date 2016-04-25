@@ -52,7 +52,7 @@ function init() {
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
         scrollwheel: false,
-        draggable: false,
+        draggable: true,
 
         // How you would like to style the map.
         // This is where you would paste any style found on Snazzy Maps.
@@ -60,7 +60,7 @@ function init() {
             "featureType": "water",
             "elementType": "geometry",
             "stylers": [{
-                "color": "#000000"
+                "color": "#2AA4B5"
             }, {
                 "lightness": 17
             }]
@@ -68,9 +68,9 @@ function init() {
             "featureType": "landscape",
             "elementType": "geometry",
             "stylers": [{
-                "color": "#000000"
+                "color": "#8DC1A6"
             }, {
-                "lightness": 20
+                "lightness": 10
             }]
         }, {
             "featureType": "road.highway",
@@ -102,9 +102,9 @@ function init() {
             "featureType": "road.local",
             "elementType": "geometry",
             "stylers": [{
-                "color": "#000000"
+                "color": "#D6665A"
             }, {
-                "lightness": 16
+                "lightness": 10
             }]
         }, {
             "featureType": "poi",
@@ -175,7 +175,7 @@ function init() {
 
     // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
     var image = 'img/map-marker.png';
-    var myLatLng = new google.maps.LatLng(40.6700, -73.9400);
+    var myLatLng = new google.maps.LatLng(51.491774, 7.416788);
     var beachMarker = new google.maps.Marker({
         position: myLatLng,
         map: map,

@@ -11,10 +11,10 @@ darauf ein und berichtet live vom Campussportevent des Jahres!"
 
 # carousel
 carousel:
-  - image: /img/carousel/slide1.jpg
-  - image: /img/carousel/slide2.jpg
-  - image: /img/carousel/slide3.jpg
-  - image: /img/carousel/slide4.jpg
+  - image: /img/carousel/slide1.png
+  - image: /img/carousel/slide2.png
+  - image: /img/carousel/slide3.png
+  - image: /img/carousel/slide4.png
 
 # Color settings (hex-codes without the leading hash-tag)
 color:

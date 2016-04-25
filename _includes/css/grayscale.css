@@ -10,7 +10,6 @@ body {
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
     background-color: #dddddd;
-  #  background-color: {{ site.color.primary-dark }};
 }
 
 html {
@@ -67,7 +66,7 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: {{ site.color.primary-dark }};
+    background-color: #000;
 }
 
 .navbar-custom .navbar-brand {
@@ -93,26 +92,38 @@ a:focus {
     color: #fff;
 }
 
-.navbar-custom .nav li.active {
-    outline: none;
-    background-color: rgba(255,255,255,.3);
-}
-
 .navbar-custom .nav li a {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
 }
 
-.navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:focus,
-.navbar-custom .nav li a.active {
+.navbar-custom .nav li a:hover {
     outline: 0;
+    color: rgba(255,255,255,.8);
+    background-color: transparent;
+}
+
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+    outline: 0;
+    background-color: transparent;
+}
+
+.navbar-custom .nav li.active {
+    outline: 0;
+}
+
+.navbar-custom .nav li.active a {
     background-color: rgba(255,255,255,.3);
 }
 
-@media(min-width:767px) {
-    .navbar {
+.navbar-custom .nav li.active a:hover {
+    color: #fff;
+}
+
+@media(min-width:768px) {
+    .navbar-custom {
         padding: 20px 0;
         border-bottom: 0;
         letter-spacing: 1px;
@@ -122,13 +133,10 @@ a:focus {
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
 
-    .top-nav-collapse {
-        padding: 0;
-        background-color: #353535;
-    }
-
     .navbar-custom.top-nav-collapse {
+        padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
+        background: #7f7f7f;
     }
 }
 
@@ -215,20 +223,8 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
-// Initialise FlexSlider for Carousels
-$(window).load(function() {
-    $('.flexslider').flexslider({
-    animation: "fade",
-    controlNav: false,
-    directionNav: true,
-    slideshowSpeed: 5000,
-    animationSpeed: 600,
-    touch: true
-    });
-});
-
 @-webkit-keyframes pulse {
-    0 {
+    0% {
         -webkit-transform: scale(1);
         transform: scale(1);
     }
@@ -245,7 +241,7 @@ $(window).load(function() {
 }
 
 @-moz-keyframes pulse {
-    0 {
+    0% {
         -moz-transform: scale(1);
         transform: scale(1);
     }
@@ -269,7 +265,6 @@ $(window).load(function() {
     width: 100%;
     padding: 50px 0;
     color: #000;
-  #  background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
     background-color: #d9cfb0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -281,7 +276,6 @@ $(window).load(function() {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-  #  background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
     background-color: #fab1b1;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -293,7 +287,6 @@ $(window).load(function() {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-  #  background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
     background-color: #8bc2a5;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -305,7 +298,6 @@ $(window).load(function() {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-  #  background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
     background-color: #d6665a;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -317,7 +309,6 @@ $(window).load(function() {
     width: 100%;
     padding: 50px 0;
     color: #8bc2a5;
-  #  background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
     background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -377,7 +368,7 @@ ul.banner-social-buttons li {
     margin-bottom: 15px;
 }
 
-@media(max-width:1199px) {
+@media(max-width:1024px) {
     ul.banner-social-buttons {
         margin-top: 15px;
     }

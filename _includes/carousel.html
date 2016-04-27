@@ -4,23 +4,17 @@
     <div class="col-lg-8 col-lg-offset-2">
 <div class="carousel-section">
   <h2 class="section-heading">Foto Gallerie</h2>
+  {% if site.carousel %}
   <div class="flexslider">
-  	<ul class="slides">
-  		<li>
-  			<img src="slider/theme/slide1.jpg" />
-  <!--   			<p class="flex-caption">Add a captions text.</p> -->
-  		</li>
-  		<li>
-			<a href="#"><img src="slider/theme/slide2.jpg" /></a>
-  		</li>
-  		<li>
-  			<img src="slider/theme/slide3.jpg" />
-  		</li>
-  		<li>
-  			<img src="slider/theme/slide4.jpg" />
-  		</li>
+    <ul class="slides">
+    {% for slides in site.carousel %}
+       <li>
+        <img src="{{ slides.image }}" class="img-responsive" alt="">
+       </li>
+    {% endfor %}
   	</ul>
   </div>
+   {% endif %}
   </div>
 </div>
 </div>

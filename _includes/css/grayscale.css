@@ -256,9 +256,9 @@ a:focus {
 .about-section {
     width: 100%;
     #padding: 50px 0;
-    color: #000;
+    color: #fff;
     #background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #d9cfb0;
+    background-color: #7e7e7e;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -318,6 +318,17 @@ a:focus {
     padding: 20px 0;
     color: #8bc2a5;
     background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.ticker-section {
+    width: 100%;
+    #padding: 50px 0;
+    color: #fff;
+    background-color: #1fa4b6;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;

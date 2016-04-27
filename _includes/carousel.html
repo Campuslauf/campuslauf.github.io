@@ -1,20 +1,27 @@
-    <!-- carousel Section -->
+  <!-- carousel Section -->
 <section id="carousel" class="container content-section text-center">
 <div class="row">
-
-  <div class="carousel-section">
-    <h2 class="section-heading">Foto Gallerie</h2>
-     {% if site.carousel %}
-      <div class="flexslider">
-        <ul class="slides">
-          {% for slides in site.carousel %}
-          <li>
-            <img src="{{ slides.image }}">
-          </li>
-          {% endfor %}
-        </ul>
-    </div>
-      {% endif %}
+    <div class="col-lg-10 col-lg-offset-1">
+<div class="carousel-section">
+  <h2 class="section-heading">Foto Gallerie</h2>
+  <div class="flexslider">
+  	<ul class="slides">
+  		<li>
+  			<img src="slider/theme/slide1.jpg" />
+  <!--   			<p class="flex-caption">Add a captions text.</p> -->
+  		</li>
+  		<li>
+			<a href="#"><img src="slider/theme/slide2.jpg" /></a>
+  		</li>
+  		<li>
+  			<img src="slider/theme/slide3.jpg" />
+  		</li>
+  		<li>
+  			<img src="slider/theme/slide4.jpg" />
+  		</li>
+  	</ul>
   </div>
   </div>
+</div>
+</div>
 </section>

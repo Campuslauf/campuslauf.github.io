@@ -215,18 +215,6 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
-// Initialise FlexSlider for Carousels
-$(window).load(function() {
-    $('.flexslider').flexslider({
-    animation: "fade",
-    controlNav: false,
-    directionNav: true,
-    slideshowSpeed: 5000,
-    animationSpeed: 600,
-    touch: true
-    });
-});
-
 @-webkit-keyframes pulse {
     0 {
         -webkit-transform: scale(1);
@@ -318,6 +306,17 @@ $(window).load(function() {
     #padding: 50px 0;
     color: #8bc2a5;
   #  background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.carousel-section {
+    width: 100%;
+    padding: 20px 0;
+    color: #8bc2a5;
     background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;

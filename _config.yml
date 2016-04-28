@@ -59,8 +59,8 @@ people2:
   pic: 8
   position: Ressortleitung
   social:
-    - title: twitter
-      url: http://www.twitter.com/datentaeterin
+#    - title: twitter
+#      url: http://www.twitter.com/datentaeterin
 #    - title: facebook
 #      url: #
 #    - title: stack-overflow
@@ -81,8 +81,8 @@ people2:
   pic: 4
   position: Redaktion
   social:
-    - title: twitter
-      url: http://www.twitter.com/datentaeterin
+#    - title: twitter
+#      url: http://www.twitter.com
 #    - title: facebook
 #      url: #
 #    - title: stack-overflow
@@ -111,12 +111,12 @@ people2:
 #    - title: stack-overflow
 #      url: #
 
-- name: Megan
+- name: Megan Bogatzki
   pic: 1
   position: Redaktion
   social:
     - title: twitter
-      url: http://www.twitter.com/datentaeterin
+      url: http://www.twitter.com/Megan_Bog
 #    - title: facebook
 #      url: #
 #    - title: stack-overflow
@@ -126,8 +126,8 @@ people2:
   pic: 2
   position: Redaktion
   social:
-    - title: twitter
-      url: http://www.twitter.com/datentaeterin
+#    - title: twitter
+#      url: http://www.twitter.com/datentaeterin
 #    - title: facebook
 #      url: #
 #    - title: stack-overflow

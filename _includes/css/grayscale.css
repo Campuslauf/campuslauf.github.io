@@ -24,6 +24,17 @@ tickerh2{
 
 }
 
+#map {
+    height: 450px;
+}
+.leaflet-popup-content-wrapper {
+  background-color: #f3f3f3
+}
+.leaflet-popup {
+position: absolute;
+text-align: center;
+}
+
 h1,
 h2,
 h3,

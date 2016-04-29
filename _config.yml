@@ -1,13 +1,14 @@
 # Site settings
 title: "#campuslauf16"
 email: marie.timcke@journocode.com
-url: http://www.tu-campuslauf.de
+url: http://www.pflichtlektuere.com/campuslauf
 description: "Am 11. Mai fällt der Startschuss zum 32. Campuslauf der TU Dortmund.
 Wieder werden sich Studierende und Externe in verschiedenen Disziplinen wie
 dem Mathetower-Run oder dem Campuswalk messen.
 In einem Countdown stimmt euch das Ressort <strong>Campus und Leben</strong> der
 Pflichtlektüre Online
 darauf ein und berichtet live vom Campussportevent des Jahres!"
+
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -17,7 +18,7 @@ color:
 # Footer settings
 footer: "Pflichtlektüre Online"
 
-baseurl: /campuslauf
+#baseurl: /campuslauf
 
 
 # Team names, titles and social links

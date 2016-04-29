@@ -4,7 +4,7 @@ L.tileLayer('http://{s}.tile.openstreetmap.se/hydda/full/{z}/{x}/{y}.png', {
   attribution: 'Tiles courtesy of <a href="http://openstreetmap.se/" target="_blank">OpenStreetMap Sweden</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &mdash; Icons from <a href="https://mapicons.mapsmarker.com" target="_blank">Maps Icons Collection</a> &mdash; Marie-Louise Timcke'
 }).addTo(map);
 
-map._layersMinZoom=15;
+map._layersMinZoom=16;
 
 /*var circle = L.circle([51.508, -0.11], 500, {
     color: 'red',

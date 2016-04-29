@@ -24,6 +24,10 @@ tickerh2{
 
 }
 
+.leaflet-popup-content {
+     color: #606060
+}
+
 #map {
     height: 450px;
 }

@@ -9,7 +9,7 @@
     <ul class="slides">
     {% for slides in site.carousel %}
        <li>
-        <img src="{{ slides.image }}" class="img-responsive" alt="">
+        <img src="{{ slides.image | prepend: site.baseurl }}" class="img-responsive" alt="">
        </li>
     {% endfor %}
   	</ul>

@@ -1,9 +1,17 @@
 ---
 layout: post
-title:  "Game"
-date:   2016-02-03 15:08:10 -0500
-img: img/portfolio/game.png
+title:  "Campuslauf-Countdown: 'Lauf, Lena, Lauf!'"
+date:   2016-05-06 00:00:00 -0500
+img: img/portfolio/games.png
 modalID: modalGame
-category: Design
+category: Countdown
 ---
-Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text.
+<strong  style = "font-size: 18pt;">Von Megan Bogatzki, Lars Frensch und Lena Meerkötter</strong>
+<br><br>
+<p style="text-align: justify;"><strong>Es ist ein Duell ungleicher Kräfte: Technik gegen Beinarbeit.
+Fahrstuhl gegen Treppe. Der Mathetower-Run gehört zu den bekanntesten Disziplinen
+beim Campuslauf. Wenige Tage vor dem Sport-Event haben wir die Spielregeln geändert.
+Während Megan Bogatzki für die zehn Stockwerke bequem den Fahrstuhl nimmt, läuft Lena
+Meerkötter alle 220 Stufen zu Fuß hoch. Kann sie den Fahrstuhl bezwingen? </strong></p>
+
+<a href="http://www.pflichtlektuere.com/blog/wp-content/uploads/2016/05/Mathetower720.mp4"><img class=" wp-image-832 aligncenter" src="img/portfolio/video.png" alt="video" width="100%" /></a>

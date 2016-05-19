@@ -1,9 +1,15 @@
 ---
 layout: post
-title:  "Cabin"
-date:   2016-02-06 15:08:10 -0500
-img: img/portfolio/cabin.png
+title:  "Campuslauf-Countdown: Schmerzende Füße und die Pizza danach - Läufer im Porträt"
+date:   2016-05-09 00:00:00 -0500
+img: img/portfolio/cabinss.png
 modalID: modalCabin
-category: Design
+category: Countdown
 ---
-Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text.
+<strong  style = "font-size: 18pt;">Von Carola Kortfunke und Wenke Wensing</strong>
+<br><br>
+<p style="text-align: justify;"><strong>Wer einmal den grünen Zettel auf sein T-Shirt geklebt, sich die Schuhe zugebunden und die Beine in Bewegung gesetzt hat, ist für die nächsten 20, 30 oder auch 60 Minuten nicht mehr als eine Startnummer. ... 1498, 1499, 1500. Einer von vielen Campusläufern. Wer aber steckt hinter diesen 1500 Nummern? Sind es nur die gut trainierten Jogger und Sportstudenten? Oder gilt für die meisten vielmehr das Motto "Dabei sein ist alles"? Wollen sie bloß ihren besten Freund schlagen oder sich an die Spitze laufen? Oder sehnt sich insgeheim jeder nach dem Bier danach? Mit einem Steckbrief stellen sich hier sechs der Teilnehmer vor:</strong></p>
+<p><a class="rm-mag-embed" href="https://readymag.com/534629" target="_blank" data-uri="534629" data-width="responsive">https://readymag.com/534629</a></p>
+<br>
+<p><em>Fotos: Wenke Wensing</em></p>
+<script id="readymag-embed-init" src="https://readymag.com/specials/assets/embed_init.js" async=""></script>
